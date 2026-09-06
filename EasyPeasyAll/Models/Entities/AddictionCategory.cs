@@ -10,6 +10,9 @@
 
         public string Description { get; set; }
 
+        public ICollection<Addiction> Addictions = new List<Addiction>();
+
+
 
     }
 }
